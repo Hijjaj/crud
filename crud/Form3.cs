@@ -71,5 +71,10 @@ namespace crud
             MessageBox.Show("Sukses");
             tampilkan();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tampilkan();
+        }
     }
 }
